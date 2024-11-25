@@ -1,0 +1,104 @@
+/* General Styling */
+body {
+    font-family: Elephant, sans-serif;
+    color: #f30000;
+    background-color: #0c0b0b;
+    margin: 1;
+}
+
+/* Header Styling */
+header {
+    background-color: #b82323;
+    color: #000000;
+    padding: 0.3rem;
+    text-align: center;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 0.5rem;
+}
+
+header nav ul li a {
+    color: #000000;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Section Styling */
+.jumbotron, .content-section {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpJRX_FlDzkislwe04e25PuaEOFPDuDbfG6Q&s);
+    padding: 8rem 4rem;
+    min-height: 400px; /* Increased height */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.jumbotron {
+    background-image: url(https://img.freepik.com/free-vector/matrix-style-binary-code-digital-falling-numbers-blue-background_1017-37387.jpg);
+    background-color: #9510ca;
+    color: #ffffff;
+}
+
+.enroll {
+    background-image: url(https://img.freepik.com/free-vector/futuristic-technological-background_79603-1096.jpg);
+    background-color: #4682B4;
+    color: #e0e0e0;
+}
+
+button {
+    margin-top: 1rem;
+    background-color: #0c0c0c;
+    color: #fafafa;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    font-size: 1rem;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: #806156;
+}
+
+.course-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+
+/* Footer */
+footer {
+    background-color: #000000;
+    color: #ffffff;
+    text-align: center;
+    padding: 1rem;
+}
+
+/* Section Background Colors */
+#about {
+    background-color: dimgrey;
+}
+
+#courses {
+    background-color: rgb(224, 11, 224);
+}
+
+/* Contact Us Section Styling */
+#contact {
+    background-color: lightblue;
+    padding: 1rem;
+    height:200px; /* Set specific height */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
